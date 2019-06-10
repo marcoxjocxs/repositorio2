@@ -2,75 +2,102 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Biryani', sans-serif;
-}
-body{
-    height:100%;
-    margin-left: 40px;
-    margin-right: 40px;
-    background-image: url("fondo.jpg")
-}
-#codigo{
-    width: 120px;
-    position: absolute;
-    right: 1%;
-    top: 0%;
 }
 
-.dos{
-    width: 50%;
-    text-align: center;
-    position: relative;
-    left: 50%;
-    transform: translate(-50%);
-    margin-top: 40px;
+body{
+    height:100%;
+    margin: 0px 50px 0px 50px;
+    /* background-image: url("fondo.jpg");
+    background-size: 100% 100%; */
+   
+}
+
+.imgbanner{
+    width: 100%;
+    height: 10%;
 }
 
 nav{
     font-size: 20px;
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
-    
+    background:#E00000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lobster', cursive;
 }
-.navegar{
-    margin: 10px;
-    padding: 10px;
+
+.navegador{
+    width: 200px;
+    height: 50px;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    line-height: 50px;
+}
+
+.navegador:hover{
+    width: 200px;
+    height: 50px;
     display: inline-block;
-    position: relative;
+    color: white;
+    background-color: black;
 }
 
 main{
     width:70%;
-    height:710px;
+    height:810px;
     margin-top: 30px;
     margin-bottom: 30px;
     position: relative;
     left: 50%;
     transform: translate(-50%);
+
 }
 
 footer{
-    border-top: 1px solid black;
     position: relative;
-
+    background-color: black;
+    color: white;
+    font-family: 'Lobster', cursive;
 }
 
 .pie{
     width: 200px;
-    margin: 10px;
+    margin-left: 80px;
     padding: 10px;
     display: inline-block;
-
+    text-decoration: none;
 }
 
+.pie:hover{
+    color: blanchedalmond;
+}
 table{
     margin: 0 auto;
     width: 100%;
     height: 100px;
 }
 
+.titulo{
+    font-family: 'Signika', sans-serif;
+    color: green;
+    font-size: 20px;
+}
+th{
+    font-family: 'Dancing Script', cursive;
+    text-align: right;
+    font-size: 30px;
+    border-bottom: 2px solid red;
+    color: red;
+}
 tr,td{
     padding: 10px;
+    border-bottom: 2px solid red;
+}
+
+.imagen1{
+    width: 400px;
+
 }
 
 .bloque{
@@ -78,8 +105,40 @@ tr,td{
     width: 100%;
     text-align: center;
 }
+
+
+
+.separador{
+    margin: 0px 50px 0px 50px;
+    padding: 10px;
+    text-align: left;
+}
+
+.texto1{
+    color:red;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+}
+.texto2{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+#estrellas{
+    width: 150px;
+}
+
 .mapa{
     position: absolute;
-    left: 65%;
-    top: -30px;
+    left: 60%;
+    top: 5px;
+}
+
+a{
+    color: white;
+}
+
+footer>div>a{
+    color: green;
 }
