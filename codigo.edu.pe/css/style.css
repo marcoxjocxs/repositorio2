@@ -1,0 +1,94 @@
+body{
+	padding-bottom: 50px;
+}
+.full-width{
+	width: 100%;
+}
+.contenedor1{
+	font-family: sans-serif; 
+	width: 1280px;
+	margin: 0 auto; 
+	border: 1px solid;
+}
+.imagen1{
+	width: 10%; 
+	float: left;
+}
+.cuadro-titulo1{
+	width: 70%; 
+	float: left;
+}
+.titulo1{
+	font-size: 40px; 
+	margin-top: 10px; 
+	margin-bottom: 0px;
+}
+.titulo2{
+	font-size: 30px; 
+	margin-top: 10px; 
+	margin-bottom: 0px; 
+	color: #5683f6;
+}
+.imagen2{
+	width: 20%; 
+	float: right;
+}
+.linea{
+	width: 100%; 
+	border-width: thin; 
+	border-color: black;
+}
+.contenedor2{
+	width: 50%; float: left;
+}
+.contenedor3{
+	margin-left: 50px; margin-right: 20px;
+}
+.titulo3{
+	font-size: 70px; color: #dd1a24;
+}
+.titulo4{
+	font-size: 55px; color: #6e686d;
+}
+.contenido1{
+	float: left; font-size: 30px; margin-top: 0px; margin-left: 15px;
+}
+.contenedor4{
+	width: 50%; float: left;
+}
+.contenedor5{
+	width: 100%; margin: 0 auto; padding-top: 50px;
+}
+.boton1{
+	width: 16.48%; border: 1px solid black; background-color: #e4e4e4; float: left;
+}
+.texto-boton1{
+	margin: 10px 10px 10px 70px; font-size: 20px; color: #000000;
+}
+.boton2{
+	width: 16.48%; border: 1px solid black; background-color: #dc1923; float: left;
+}
+.texto-boton2{
+	margin: 10px 10px 10px 70px; font-size: 20px; color: #FFFFFF;
+}
+.contenedor6{
+	width: 30%; float: left;
+}
+.contenedor7{
+	width: 40%; float: left;
+}
+.contenedor8{
+	width: 30%; float: left;
+}
+.titulo-video{
+	font-size: 40px; color:#6b6b6b; margin: 10px 20px 10px 50px;
+}
+.texto1{
+	font-size: 30px;color:#6b6b6b; margin-left: 50px
+}
+footer{
+	width: 100%; display: inline-block;
+}
+.notas{
+	font-family: sans-serif; width: 1280px; margin: 0 auto;
+}
