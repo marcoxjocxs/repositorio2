@@ -1,0 +1,173 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('./fondo1.jpg');
+}
+/* --------------------------------------------------------------------------------------- */
+/* -------------------------------------------Header-------------------------------------- */
+/* --------------------------------------------------------------------------------------- */
+header{
+    height: 10%;
+}
+.icon1{
+    height:149px;
+    width:156px; 
+    margin-left:40px; 
+}
+.cont1{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.cont2{
+    height: 100%;
+    width: 60%;
+    float: left;
+}
+.cont3{
+    height: 100%;
+    width: 20%;
+    float: left;
+}
+.titulo{
+    height:144px;
+    width:400px;  
+    border: 4px groove black;
+    margin-left: 20%;
+    margin-right: 10%;
+
+}
+.logo{
+    width:180px;
+    height:120px;
+    float: left;
+    margin-left:1%;
+}
+.clear{
+    clear: both;
+}
+.hr1
+{
+    border: 1px solid black;
+}
+/* --------------------------------------------------------------------------------------- */
+/* ----------------------------------------Main------------------------------------------- */
+/* --------------------------------------------------------------------------------------- */
+main{
+    height: 80%;
+}
+.caja1{
+    height:600px;
+    width: 700px; 
+    border-radius:10px;
+    box-shadow:3px 3px 5px black;
+    margin:0 auto;
+    padding:0px 10px 10px 10px;
+}
+.caja1>h1{
+    font-size: 50px;
+    text-align: center;
+    font-family: 'Lobster', cursive;
+    margin-top: 10px;
+}
+.table1
+{
+    text-align: center;
+    margin: 0 auto;
+}
+.textbox{
+    border: 1px solid #DBE1EB;
+    font-family: Arial, Verdana;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #FFFFFF;
+    background: linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+    color: #2E3133;
+}
+.menu1{
+    border: 1px solid #DBE1EB;
+    font-family: Arial, Verdana;
+    width: 200px;
+    padding-left: 15px;
+    padding-right: 15px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+    -moz-border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -o-border-radius: 4px;
+    background: #FFFFFF;
+    background: linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -moz-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -webkit-linear-gradient(left, #FFFFFF, #F7F9FA);
+    background: -o-linear-gradient(left, #FFFFFF, #F7F9FA);
+    color: #2E3133;
+}
+.button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 8px 2px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+    margin: 0 auto;
+  }
+  .button1 {
+    background-color: white; 
+    color: black; 
+    border: 2px solid #008CBA;
+    
+  }
+  
+  .button1:hover {
+    background-color: #008CBA;
+    color: white;
+   
+  }
+/* --------------------------------------------------------------------------------------- */
+/* ----------------------------------------Footer----------------------------------------- */
+/* --------------------------------------------------------------------------------------- */
+footer{
+    height: 100px;
+    clear:both;
+    background-color:rgb(49, 86, 134);
+    box-sizing:border-box;
+}
+footer>div:not(.mapa){
+    display:inline-block;
+    width:200px;
+    color:white;
+    font-size:24px;
+    text-align:center;
+    position: relative;
+    bottom: 30px;
+}
+footer>.mapa{
+    display:inline-block;
+    padding-top:4px;
+    width:302px;
+    border: 1px solid black;
+
+}
