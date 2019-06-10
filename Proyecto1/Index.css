@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Biryani', sans-serif;
+}
+body{
+    height:100%;
+    margin-left: 40px;
+    margin-right: 40px;
+    background-image: url("fondo.jpg")
+}
+#codigo{
+    width: 120px;
+    position: absolute;
+    right: 1%;
+    top: 0%;
+}
+
+.dos{
+    width: 50%;
+    text-align: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 40px;
+}
+
+nav{
+    font-size: 20px;
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    
+}
+.navegar{
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+}
+
+main{
+    width:70%;
+    height:710px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+footer{
+    border-top: 1px solid black;
+    position: relative;
+
+}
+
+.pie{
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    display: inline-block;
+
+}
+
+table{
+    margin: 0 auto;
+    width: 100%;
+    height: 100px;
+}
+
+tr,td{
+    padding: 10px;
+}
+
+.bloque{
+    display: inline-flex;
+    width: 100%;
+    text-align: center;
+}
+.mapa{
+    position: absolute;
+    left: 65%;
+    top: -30px;
+}
