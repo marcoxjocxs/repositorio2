@@ -76,6 +76,11 @@ main{
     text-align: center;
     margin-top: 10px;
 }
+.nombres
+{
+    float: left;
+    margin-left: 10px;
+}
 .table1
 {
     text-align: center;
