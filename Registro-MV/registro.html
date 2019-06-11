@@ -17,7 +17,8 @@
             <img class="icon1" src="./icon1.jpg">
         </div>
         <div class="cont2">
-            <img class="titulo" src="titulo.jpg">
+            <h1>Mi pagina web</h1>
+            <h2>Registro</h2>
         </div>
         <div class="cont3">
             <img class="logo" src="./codigo-logo.png">
@@ -27,12 +28,20 @@
     <hr class="hr1">
     <main>
         <div class="caja1">
-            <h1>Registro</h1>
+            <h1>Registro de usuario</h1>
             <form action="">
                 <table class="table1">
                     <tr>
-                        <td><label>Nombre:</label></td>
-                        <td><label>Apellido:</label></td>
+                        <td colspan="2"><input type="text" class="textbox green1" placeholder="USUARIO"></td>
+                        
+                    </tr>
+                    <tr>
+                            <td colspan="2"><br></td>
+                            
+                        </tr>
+                    <tr>
+                        <td><label class="nombres">Nombre:</label></td>
+                        <td><label class="nombres">Apellido:</label></td>
                     </tr>
                     <br>
                     <tr>
@@ -41,8 +50,8 @@
                         <td><input type="text" class="textbox" tabindex="2" /></td>
                     </tr>
                     <tr>
-                        <td><label>E-mail:</label></td>
-                        <td><label>Password:</label></td>
+                        <td><label class="nombres">E-mail:</label></td>
+                        <td><label class="nombres">Password:</label></td>
                     </tr>
                     <tr>
                         <td><input type="email" class="textbox" tabindex="3" /></td>
@@ -51,8 +60,8 @@
                                 title="Al menos 1 Mayuscula, 1 Minuscula y 1 numero, minimo 8 caracteres" /></td>
                     </tr>
                     <tr>
-                        <td><label>Confirmar Password:</label></td>
-                        <td><label>Edad:</label></td>
+                        <td><label class="nombres">Confirmar Password:</label></td>
+                        <td><label class="nombres">Edad:</label></td>
                     </tr>
                     <tr>
                         <td><input type="password" required class="textbox" tabindex="5"
@@ -61,8 +70,8 @@
                         <td><input type="number" class="textbox" tabindex="6" /></td>
                     </tr>
                     <tr>
-                        <td><label>Telefono:</label></td>
-                        <td><label>Ciudad:</label></td>
+                        <td><label class="nombres">Telefono:</label></td>
+                        <td><label class="nombres">Ciudad:</label></td>
                     </tr>
                     <tr>
                         <td><input type="number" class="textbox" tabindex="7" required minlength="9" maxlength="11" />
@@ -94,22 +103,24 @@
                             </select></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><br><br></td>
+                        <td colspan="2"><br></td>
                     </tr>
                     <tr>
-                        <td colspan="2"><input type="checkbox" value="first_checkbox"><label> Acepto politicas y
+                        <td colspan="2"><input type="checkbox"  value="first_checkbox"><label> Acepto politicas y
                                 condiciones</label></td>
                     </tr>
-                    <tr>
-                        <td colspan="2"><br><br></td>
-                    </tr>
+                    
                     <tr>
                         <td colspan="2">
                             <input type="submit" class="button button1" value="Aceptar">
                         </td>
                     </tr>
+                    <tr>
+                        <td colspan="2">Los terminos y condiciones del sitio.........bla bla</td>
+                    </tr>
                 </table>
             </form>
+        
         </div>
     </main>
     <footer>
