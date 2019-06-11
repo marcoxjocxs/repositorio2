@@ -1,0 +1,190 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#page-header {
+    height: 54px;
+    padding: 4px;
+    border-bottom: 2px solid black;
+}
+
+#page-header .logo {
+    height: 100%;
+    float: left;
+}
+
+#page-header .project-logo {
+    height: 100%;
+    float: right;
+}
+
+#page-header .flow {
+    margin: 0 80px;
+}
+
+#page-header .caption {
+    font-size: 2em;
+}
+
+#page-header .sub-caption {
+    font-size: 1em;
+}
+
+h1 {
+    font-size: 2.5em;
+    font-weight: normal;
+    text-align: center;
+}
+
+h1 img {
+    vertical-align: -6px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.category {
+    margin: 20px auto;
+    max-width: 840px;
+}
+
+.category-header {
+    height: 140px;
+    color: white;
+    border: 1px solid black;
+    border-bottom: 0;
+
+    font-size: 2em;
+}
+
+.category-soups .category-header {
+    background: 
+        white url("https://cdn-image.myrecipes.com/sites/default/files/styles/medium_2x/public/bacon-and-beef-stew.jpg?itok=aLWp1Nyg") 
+        no-repeat center center / cover;
+
+    padding: 80px 20px 10px 20px;
+    box-sizing: border-box;
+}
+
+.category-native .category-header {
+    background:
+        white url("http://www.mitsitamcafe.com/wp-content/uploads/2017/03/mitsitam-cafe-cover-700.jpg")
+        no-repeat center top / cover;
+    padding: 20px 20px 10px 20px;
+    box-sizing: border-box;
+    text-align: right;
+}
+
+.category-body {
+    background: #fad8ac;
+    border: 1px solid black;
+
+    position: relative;
+    overflow: hidden;
+    display: flex;
+}
+
+.category .details {
+    min-width: 185px;
+    flex: 1;
+    padding: 10px;
+    display: flex;
+    flex-direction: column
+}
+
+.category .details-text {
+    flex-grow: 1;
+}
+
+.category .stars {
+    margin: 10px 0;
+}
+
+.category .flow {
+    flex-grow: 1;
+    overflow: hidden;
+}
+
+.category .video {
+    float: left;
+    margin: 10px;
+}
+
+.category-footer {
+    border: 1px solid black;
+    border-top: 0;
+    padding: 10px;
+}
+
+.category-footer aside {
+    float: right;
+}
+
+.codigo i {
+    width: 20px;
+    height: 20px;
+
+    display: inline-block;
+    vertical-align: -5px;
+
+    background: transparent url("../images/man-user.png") no-repeat center center / contain;
+}
+
+#page-footer {
+    margin-top: 40px;
+    padding: 10px;
+    padding-bottom: 20px;
+    border-top: 2px solid black;
+}
+
+#page-footer a {
+    margin: 0 10px;
+    color: inherit;
+    text-decoration: none;
+}
+
+#page-footer aside {
+    float: right;
+}
+
+#page-footer aside img {
+    height: 60px;
+    margin-top: -20px;
+    cursor: pointer;
+}
+
+@media(max-width: 640px) {
+    #page-header {
+        font-size: 0.75em;
+    }
+
+    #page-header .caption {
+        font-size: 1.5em;
+    }
+
+    #page-header .logo {
+        width: 60px;
+        margin-top: 5px;
+        height: auto;
+    }
+
+    #page-header .project-logo {
+        width: 80px;
+        height: auto;
+        margin-top: 10px;
+    }
+
+    .category-body { 
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .category .video {
+        margin: 10px auto;
+        float: none;
+    }
+
+    #page-footer a {
+        display: block;
+        margin: 5px 0;
+    }
+}
